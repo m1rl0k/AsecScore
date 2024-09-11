@@ -10,7 +10,7 @@ Total Points: 100
 3. All repositories covered by security checks (5 points)
 4. All branches covered by static analysis (5 points)
 
-## Deployment and Pipeline (25 points)
+## Deployment and Pipeline (30 points)
 5. Runner/Agent Security (10 points)
    - Self-hosted runners/agents used (10 points)
    - Public runners used with appropriate security measures (5 points)
@@ -25,23 +25,27 @@ Total Points: 100
    - Azure Key Vault or AWS Secrets Manager implemented (5 points)
    - Partial implementation or alternative service used (3 points)
    - No secure secret management service used (0 points)
+9. Least Privilege Access for Service Principals and Roles (5 points)
+   - Comprehensive least privilege access implemented and regularly reviewed (5 points)
+   - Partial implementation of least privilege access (3 points)
+   - No clear least privilege access strategy (0 points)
 
 ## Code Nature and Analysis (15 points)
-9. Appropriate analysis based on language and potential vulnerabilities (SSRF, Certs, XSS, Injection, WebSockets, etc.) (10 points)
-10. Combination of static analysis and human observation (5 points)
+10. Appropriate analysis based on language and potential vulnerabilities (SSRF, Certs, XSS, Injection, WebSockets, etc.) (10 points)
+11. Combination of static analysis and human observation (5 points)
 
 ## Historical Security (5 points)
-11. No prior data breaches (5 points)
+12. No prior data breaches (5 points)
 
-## Network Security (15 points)
-12. Private endpoints implemented (5 points)
-13. Security groups / ACL reviewed (5 points)
-14. Web Application Firewall (WAF) implemented (5 points)
+## Network Security (10 points)
+13. Private endpoints implemented (3 points)
+14. Security groups / ACL reviewed (4 points)
+15. Web Application Firewall (WAF) implemented (3 points)
 
 ## Additional Security Measures (10 points)
-15. Security headers implemented (3 points)
-16. Storage (S3/Blob) reviewed, Shared Access Key (SAK) properly managed (4 points)
-17. Account secret rotation implemented (3 points)
+16. Security headers implemented (3 points)
+17. Storage (S3/Blob) reviewed, Shared Access Key (SAK) properly managed (4 points)
+18. Account secret rotation implemented (3 points)
 
 ## Scoring Guide
 - 90-100: Excellent security posture
